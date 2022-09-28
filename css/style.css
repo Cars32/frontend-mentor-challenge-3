@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+/*############# RESERT INITIAL CONFIGS #############*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+
+/*############# BODY #############*/
+body {
+  max-width: 1440px;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*############# MAIN #############*/
+#main {
+  width: 320px;
+  max-height: 700px;
+  background-color: hsl(216, 50%, 16%);
+  margin-top: 47px;
+  border-radius: 20px;
+  padding: 19px;
+}
+#firstDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#imgCard {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+#p1 {
+  margin-top: 23px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Outfit";
+}
+#p2 {
+  color: hsl(215, 51%, 70%);
+  margin-top: 20px;
+  font-size: 1rem;
+}
+#secondDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#p3 {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit";
+}
+#p4 {
+  color: hsl(215, 51%, 70%);
+}
+#hr1 {
+  margin-top: 20px;
+  background-color: hsl(215, 32%, 27%);
+  height: 1.5px;
+  border: none;
+}
+#thirdDiv {
+  margin-top: 18px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+#userImg {
+  height: 37px;
+  width: 37px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+#p5 {
+  color: hsl(215, 51%, 70%);
+  margin-left: 15px;
+  font-size: 1rem;
+}
+#p6 {
+  margin-left: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+/*############# FOOTER #############*/
+#attribution {
+  color: white;
+  text-align: center;
+  margin-bottom: 23px;
+}
+#attribution hr{
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
